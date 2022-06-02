@@ -46,3 +46,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+a{
+  color: unset;
+  text-decoration: none;
+}
+
+li{
+  text-align:unset;
+}

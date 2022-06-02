@@ -1,3 +1,7 @@
+body{
+  font-family: 'Raleway', 'Helvetica', sans-serif;
+}
+
 h1{
   font-size: 30px;
 }
@@ -6,4 +10,32 @@ h1{
   /* max-width: 1200px; */
   margin: 40px;
   font-size: 40px;
+}
+
+.navElement
+{
+  background-color: rgb(99, 162, 111);
+  color: white;
+  font-size: 30px;
+  box-sizing: border-box;
+  width: 150px;
+  border: 4px black solid;
+  padding: 10px;
+  margin: 5px;
+}
+
+.navElement:hover
+{
+  color: rgb(91, 219, 18);
+}
+
+
+#boxModel{
+  background-color: aqua;
+  width: 600px;
+  margin: auto;
+  border: 10px solid red;
+  padding: 20px;
+  box-sizing: border-box;
+  line-height: 1.2;
 }
