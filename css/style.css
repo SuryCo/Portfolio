@@ -7,7 +7,7 @@ h1{
 }
 
 header{
-  background-color: rgb(109, 140, 113);
+  background-color: rgb(133, 172, 138);
   box-sizing: border-box;
   padding: 10px;
 }
@@ -43,6 +43,7 @@ header{
   border: 4px black solid;
   padding: 10px;
   margin: 5px;
+  display: inline-block;
 }
 
 .navElement:hover
@@ -59,4 +60,21 @@ header{
   padding: 20px;
   box-sizing: border-box;
   line-height: 1.2;
+}
+
+footer{
+  background-color: rgb(232, 215, 147);
+}
+
+.footerMain h3{
+  font-size: 30px;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+.footerMain{
+  display: inline-block;
+  padding: 30px;
+  border: 2px black solid;
+  box-sizing: border-box;
 }
