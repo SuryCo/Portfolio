@@ -6,17 +6,38 @@ h1{
   font-size: 30px;
 }
 
+header{
+  background-color: rgb(109, 140, 113);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
 #sec_aboutMe{
   /* max-width: 1200px; */
-  margin: 40px;
+  background-color: salmon;
+  margin: 30px auto;
+  width: 1200px;
+  padding: 20px;
+  
   font-size: 40px;
+}
+
+#headerClaim{
+  /* background-color: rgb(99, 162, 111);
+  border: 4px black solid; */
+  font-size: 200px;
+  font-weight: bold;
+
+  line-height: 110%;
+  padding: 200px 50px 50px;
+
 }
 
 .navElement
 {
-  background-color: rgb(99, 162, 111);
-  color: white;
+  color: black;
   font-size: 30px;
+  font-weight: 600;
   box-sizing: border-box;
   width: 150px;
   border: 4px black solid;
