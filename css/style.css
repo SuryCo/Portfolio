@@ -22,12 +22,40 @@ header{
   font-size: 40px;
 }
 
+.secBoxes{
+  padding: 40px 50px;
+}
+
+.secBoxes h3{
+  font-size: 40Px;
+  border: 5px black solid;
+  background-color: blanchedalmond;
+  box-sizing: border-box;
+  padding: 8px 8px;
+  margin: 8px 0px;
+}
+
+.secBoxes div{
+  display: inline-block;
+}
+
+#box1{
+  transform: rotate(4deg);
+}
+
+#box2{
+  transform: translate(10px, 5px) rotate(10deg);
+}
+
+#box3{
+  transform: translate(10px, 5px) rotate(-10deg);
+}
+
 #headerClaim{
   /* background-color: rgb(99, 162, 111);
   border: 4px black solid; */
   font-size: 200px;
   font-weight: bold;
-
   line-height: 110%;
   padding: 200px 50px 50px;
 
