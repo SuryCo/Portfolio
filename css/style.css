@@ -14,18 +14,16 @@ header{
 
 #sec_aboutMe{
   /* max-width: 1200px; */
-  background-color: salmon;
-  margin: 30px auto;
-  width: 1200px;
+  background-color: rgb(235, 153, 144);
+  margin: 50px 0px;
   padding: 20px;
-  
   font-size: 40px;
 }
 
 .secBoxes{
   padding: 40px 50px;
 }
-
+ 
 .secBoxes h3{
   font-size: 40Px;
   border: 5px black solid;
@@ -72,6 +70,8 @@ header{
   padding: 10px;
   margin: 5px;
   display: inline-block;
+  cursor: pointer;  /*This is to make all the linkes have the mouse change to pointer*/
+   
 }
 
 .navElement:hover
