@@ -1,10 +1,35 @@
+/*Style sheet with main styles
+==============================
+1. Typography
+2. Section Styles
+
+*/
+
+
+/* 1. TYPOGRAPHY */
+/* The typography is set to a 'perfect fourth' scale (1.333 factor) with the base of 16px. The numbers are rounded. */
+
 body{
   font-family: 'Raleway', 'Helvetica', sans-serif;
 }
 
 h1{
-  font-size: 30px;
+  font-size: 65px;
 }
+
+h2{
+  font-size: 50px;
+}
+
+h3{
+  font-size: 36px;
+}
+
+p{
+  font-size: 28px;
+}
+
+
 
 header{
   background-color: rgb(133, 172, 138);
