@@ -118,6 +118,33 @@ header{
   line-height: 1.2;
 }
 
+section.flexSection{
+  margin: 50px 0;
+  padding: 50px 0;
+  background-color: rgb(235, 235, 235);
+}
+
+.flexSection h2{
+  padding-bottom: 32px;
+}
+
+div.flexContainer{
+  display: flex;
+}
+
+div.flexChild{
+  border: 2px black solid;
+  background-color: darkslateblue;
+  color: white;
+  padding: 32px;
+  margin: 8px;
+  box-sizing: border-box;
+}
+
+.flexChild h3{
+  padding: 32px;
+}
+
 footer{
   background-color: rgb(232, 215, 147);
 }
