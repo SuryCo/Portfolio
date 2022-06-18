@@ -119,9 +119,10 @@ header{
 }
 
 section.flexSection{
-  margin: 50px 0;
+  margin: 50px auto;
   padding: 50px 0;
   background-color: rgb(235, 235, 235);
+  max-width: 1280px;
 }
 
 .flexSection h2{
@@ -130,6 +131,8 @@ section.flexSection{
 
 div.flexContainer{
   display: flex;
+  justify-content:center;
+  align-items: center;
 }
 
 div.flexColumn{
