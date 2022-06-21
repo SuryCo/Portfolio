@@ -87,6 +87,12 @@ header{
 
 }
 
+.navList{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 .navElement
 {
   color: black;
@@ -96,7 +102,6 @@ header{
   width: 150px;
   padding: 10px;
   margin: 5px;
-  display: flex;
   cursor: pointer;  /*This is to make all the linkes have the mouse change to pointer*/
    
 }
