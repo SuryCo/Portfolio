@@ -10,7 +10,7 @@
 /* The typography is set to a 'perfect fourth' scale (1.333 factor) with the base of 16px. The numbers are rounded. */
 
 body{
-  font-family: 'Raleway', 'Helvetica', sans-serif;
+  font-family: 'Work Sans', 'Helvetica', sans-serif;
 }
 
 h1{
@@ -23,6 +23,13 @@ h2{
 }
 
 h3{
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+h4{
   font-size: 36px;
   padding-top: 32px;
   padding-bottom: 32px;
