@@ -35,7 +35,7 @@ p{
 
 
 header{
-  background-color: rgb(133, 172, 138);
+  /* background-color: rgb(133, 172, 138); */
   box-sizing: border-box;
   padding: 10px;
 }
@@ -80,7 +80,7 @@ header{
 #headerClaim{
   /* background-color: rgb(99, 162, 111);
   border: 4px black solid; */
-  font-size: 200px;
+  font-size: 105px;
   font-weight: bold;
   line-height: 110%;
   padding: 200px 50px 50px;
@@ -90,14 +90,13 @@ header{
 .navElement
 {
   color: black;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 300;
   box-sizing: border-box;
   width: 150px;
-  border: 4px black solid;
   padding: 10px;
   margin: 5px;
-  display: inline-block;
+  display: flex;
   cursor: pointer;  /*This is to make all the linkes have the mouse change to pointer*/
    
 }
