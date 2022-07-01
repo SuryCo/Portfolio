@@ -16,12 +16,21 @@ header{
   /* background-color: rgb(133, 172, 138); */
   box-sizing: border-box;
   padding: 10px;
+  max-width: 1440px;
+  margin: auto;
 }
 
+main{
+  max-width: 1440px;
+  /* margin: auto; */
+}
+
+
 .section-introduction{
-  margin-top: 35%;
-  margin-left: 100px;
-  width: 80vw;
+  margin: 10% 0px 10% 100px;
+  line-height: 1.25;
+  width: 86%;
+
 }
 
 #sec_aboutMe{
