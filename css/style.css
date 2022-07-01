@@ -9,37 +9,8 @@
 /* 1. TYPOGRAPHY */
 /* The typography is set to a 'perfect fourth' scale (1.333 factor) with the base of 16px. The numbers are rounded. */
 
-body{
-  font-family: 'Work Sans', 'Helvetica', sans-serif;
-}
-
-h1{
-  font-size: 65px;
-  font-weight: 700;
-}
-
-h2{
-  font-size: 50px;
-}
-
-h3{
-  font-size: 36px;
-  font-weight: 700;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-h4{
-  font-size: 36px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-p{
-  font-size: 28px;
-}
-
-
+@import 'typography.css';
+/* Importing the typography CSS. The idea is to have a separate file to manage the typography for separation of concerns. */
 
 header{
   /* background-color: rgb(133, 172, 138); */
