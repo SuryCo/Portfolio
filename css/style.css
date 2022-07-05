@@ -10,6 +10,7 @@
 /* The typography is set to a 'perfect fourth' scale (1.333 factor) with the base of 16px. The numbers are rounded. */
 
 @import 'typography.css';
+@import 'designSys.css';
 /* Importing the typography CSS. The idea is to have a separate file to manage the typography for separation of concerns. */
 
 header{

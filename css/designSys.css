@@ -1,0 +1,10 @@
+:root{
+  --red-component: 255;
+  --green-component: 100;
+  --blue-component: 135;
+}
+
+h2{
+  /* color: var(--main-color); */
+  color: rgb(var(--red-component), var(--green-component), var(--blue-component));
+}
